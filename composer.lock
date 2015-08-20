@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c4c4dcb3500a680d7988b4cecff5a166",
+    "hash": "43f55e542a6fdc27f8b176ac3467284e",
     "packages": [
         {
             "name": "codeigniter/framework",
@@ -90,6 +90,49 @@
                 "instantiate"
             ],
             "time": "2015-06-14 21:17:01"
+        },
+        {
+            "name": "kenjis/ci-phpunit-test",
+            "version": "v0.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kenjis/ci-phpunit-test.git",
+                "reference": "f75a58e604ecdf1edf5173ac17df2b1917c5c984"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kenjis/ci-phpunit-test/zipball/f75a58e604ecdf1edf5173ac17df2b1917c5c984",
+                "reference": "f75a58e604ecdf1edf5173ac17df2b1917c5c984",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kenji Suzuki",
+                    "homepage": "https://github.com/kenjis/ci-phpunit-test"
+                }
+            ],
+            "description": "An easier way to use PHPUnit with CodeIgniter 3.0",
+            "homepage": "http://kenjis.github.io/ci-phpunit-test/",
+            "keywords": [
+                "codeigniter",
+                "phpunit",
+                "test",
+                "unit testing"
+            ],
+            "time": "2015-08-13 01:27:07"
         },
         {
             "name": "mikey179/vfsStream",
