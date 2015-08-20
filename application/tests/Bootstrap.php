@@ -295,7 +295,6 @@ switch (ENVIRONMENT)
  * If you want to use monkey patching, uncomment below code and configure
  * for your application.
  */
-/*
 require __DIR__ . '/_ci_phpunit_test/patcher/bootstrap.php';
 MonkeyPatchManager::init([
 	'cache_dir' => APPPATH . 'tests/_ci_phpunit_test/tmp/cache',
@@ -320,7 +319,6 @@ MonkeyPatchManager::init([
 	],
 	'exit_exception_classname' => 'CIPHPUnitTestExitException',
 ]);
-*/
 
 /*
  * -------------------------------------------------------------------
